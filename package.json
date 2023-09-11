@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass --include-path style.sass style.css",
+    "css": "node-sass --include-path style.scss style.css",
     "watch": "nodemon -e scss -x 'npm run css'"
   },
   "keywords": [],
