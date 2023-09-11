@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass --include-path scss style.scss style.css",
+    "css": "node-sass --include-path style.sass style.css",
     "watch": "nodemon -e scss -x 'npm run css'"
   },
   "keywords": [],
@@ -14,5 +14,8 @@
   "devDependencies": {
     "node-sass": "^9.0.0",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1"
   }
 }
